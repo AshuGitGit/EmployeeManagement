@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: EmployeeManagentAPI
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/EmployeeManagement
+    username: root
+    password: "system123#"
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
